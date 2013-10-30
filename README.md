@@ -8,6 +8,6 @@ Docker-Gitbucket is under New BSD License. See the bundled LICENSE file for deta
 
 ## Credits
 
-Alexis Couronne <alexis.couronne(AT)gmail.com>
+Alexis Couronne alexis.couronne(AT)gmail.com
 
 
