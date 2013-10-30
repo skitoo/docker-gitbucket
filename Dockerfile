@@ -18,7 +18,7 @@ RUN echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true 
 RUN apt-get install -y oracle-java7-installer
 
 # install gitbucket
-RUN wget -O /gitbucket.war https://github.com/takezoe/gitbucket/releases/download/1.6/gitbucket.war
+RUN wget -O /gitbucket.war https://github.com/takezoe/gitbucket/releases/download/1.7/gitbucket.war
  
 ADD start.sh /start.sh
 ADD supervisor/gitbucket.conf /etc/supervisor/conf.d/gitbucket.conf
